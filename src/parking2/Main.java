@@ -34,7 +34,7 @@ public class Main extends person {
     }
 
     static class Admin extends person {
-        private int SpotCode; hh
+        private int SpotCode;
 
         public void AddUser(String UserName, String Password, int RoleID, int shiftID) {
             File file = new File("AddUser.txt");
